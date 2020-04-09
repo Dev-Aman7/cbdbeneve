@@ -1,120 +1,119 @@
-.c-heading{
-    font-family: $main-font;
-    color: $base-color;
-    font-weight: 400;
-    //versions
-    &--default{
-        font-size: 28px;
-        letter-spacing: 1px;
-        @media (min-width: 992px){
-            font-size: 40px;
-            margin-bottom:30px;
-        }
-        
-    }
-    &--light{
-        font-weight: 300;
-    }
-    &--large{
-        @media (min-width: 1400px){
-            font-size: 48px;
-        }
-    }
-    
-    &--transform{
-        text-transform:uppercase;
-    }
+.c-heading {
+	font-family: $main-font;
+	color: $base-color;
+	font-weight: 400;
+	//versions
+	&--default {
+		font-size: 28px;
+		letter-spacing: 1px;
+		@media (min-width: 992px) {
+			font-size: 40px;
+			margin-bottom: 30px;
+		}
+	}
+	&--light {
+		font-weight: 300;
+	}
+	&--large {
+		@media (min-width: 1400px) {
+			font-size: 48px;
+		}
+	}
 
-    &--order{
-        @include bpm-xs{
-            font-size: 22px;
-        }
-    }
-    &--order-no{
-        font-size: 24px;
-        @include bpm-lg{
-            font-size: 22px;
-        }
-        @include bpm-xs{
-            font-size: 18px;
-        }
-    }
+	&--transform {
+		text-transform: uppercase;
+	}
+
+	&--order {
+		@include bpm-xs {
+			font-size: 22px;
+		}
+	}
+	&--order-no {
+		font-size: 24px;
+		@include bpm-lg {
+			font-size: 22px;
+		}
+		@include bpm-xs {
+			font-size: 18px;
+		}
+	}
 }
-.c-sub-heading{
-    font-family: $sub-font;
-    color: $base-color;
+.c-sub-heading {
+	font-family: $sub-font;
+	color: $base-color;
 
-    //versions
-    &--default{
-        font-size: 16px;
-        letter-spacing: .5px;
-        @media (min-width: 992px){
-            font-size: 18px;            
-            line-height: 1.8;
-        }
-    }
+	//versions
+	&--default {
+		font-size: 16px;
+		letter-spacing: 0.5px;
+		@media (min-width: 992px) {
+			font-size: 18px;
+			line-height: 1.8;
+		}
+	}
 }
 .c-heading,
-.c-sub-heading{
-    //versions
-    &--upper{
-        text-transform: uppercase;
-    }
-    &--gold{
-        color: $brand-color-1
-    }
-    &--white{
-        color: $light-color;
-    }
-    &--lft-br{
-        padding-left: 20px;
-        border-left: 1px solid $brand-color-1;
-    }
-    &--btm-br{
-        padding-bottom: 10px;
-        border-bottom: 1px solid $brand-color-1;
-    }
-    &--center{
-        text-align: center;
-    }
-    &--btm-br{
-        padding-bottom: 10px;
-        border-bottom: 1px solid $brand-color-1;
-    }
-    
-    &--weight{
-        &-100{
-            font-weight: 100;
-        }
-        &-200{
-            font-weight: 200;
-        }
-        &-300{
-            font-weight: 300;
-        }
-        &-400{
-            font-weight: 400;
-        }
-        &-500{
-            font-weight: 500;
-        }
-        &-600{
-            font-weight: 600;
-        }
-        &-700{
-            font-weight: 700;
-        }
-        &-800{
-            font-weight: 800;
-        }
-        &-900{
-            font-weight: 900;
-        }
-        &-bold{
-            font-weight: bold;
-        }
-        &-normal{
-            font-weight: normal;
-        }
-    }
+.c-sub-heading {
+	//versions
+	&--upper {
+		text-transform: uppercase;
+	}
+	&--gold {
+		color: $brand-color-1;
+	}
+	&--white {
+		color: $light-color;
+	}
+	&--lft-br {
+		padding-left: 20px;
+		border-left: 1px solid $brand-color-1;
+	}
+	&--btm-br {
+		padding-bottom: 10px;
+		border-bottom: 1px solid $brand-color-1;
+	}
+	&--center {
+		text-align: center;
+	}
+	&--btm-br {
+		padding-bottom: 10px;
+		border-bottom: 1px solid $brand-color-1;
+	}
+
+	&--weight {
+		&-100 {
+			font-weight: 100;
+		}
+		&-200 {
+			font-weight: 200;
+		}
+		&-300 {
+			font-weight: 300;
+		}
+		&-400 {
+			font-weight: 400;
+		}
+		&-500 {
+			font-weight: 500;
+		}
+		&-600 {
+			font-weight: 600;
+		}
+		&-700 {
+			font-weight: 700;
+		}
+		&-800 {
+			font-weight: 800;
+		}
+		&-900 {
+			font-weight: 900;
+		}
+		&-bold {
+			font-weight: bold;
+		}
+		&-normal {
+			font-weight: normal;
+		}
+	}
 }

@@ -14,21 +14,31 @@ $g-bp-lg: 1200px;
 $g-bp-xl: 1400px;
 $g-bp-xxl: 1800px;
 
-
 // fonts
-$main-font: 'Montserrat', sans-serif;
-$sub-font: 'Ovo', serif;
+$main-font: "Montserrat", sans-serif;
+$sub-font: "Ovo", serif;
 
 //colors
-$base-color: #1A1811;
+$base-color: #1a1811;
 $light-color: #ffffff;
-$light-color-2: #faf7f5;
-$brand-color-1: #cfa564;
-$dark-color-1: #302D23;
-$dark-color-2: #000000;
+$light-color-2: #f2f2f2;
+$brand-color-1: #f24503;
+$dark-color-1: #000000;
+$dark-color-2: #1f140c;
 $error-color: red;
 $error-color-2: #c40000;
-$border-color: #d0c9c9;
+$border-color: #fab49a;
 $black: #000;
+$Hover-color: #f13100;
 // extra colors
 $light-color-3: #fdfdfd;
+
+//colors
+// $Hover-color: #f13100;
+// $light-color: #ffffff;
+// $light-color-2: #f2f2f2;
+// $brand-color-1: #f24503;
+// $dark-color-1: #000000;
+// $dark-color-2: #1f140c;
+// $error-color: red;
+// $border-color: #fab49a;

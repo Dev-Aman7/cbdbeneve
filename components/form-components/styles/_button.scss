@@ -1,97 +1,138 @@
-.c-btn{
-    padding: 5px;
-    display: inline-block;
-    font-family: $sub-font;
-    font-size: 15px;
-    text-align: center;
-    color: $base-color;
-    border: none;
-    background-color: transparent;
-    text-decoration: none;
-    // font-weight: 500;
-    transition: all .3s;
-    cursor: pointer;
-    @include bp-xxl{
-        font-size: $font-size-xxl;
-    }
+.c-btn {
+	padding: 5px;
+	display: inline-block;
+	font-family: $sub-font;
+	font-size: 15px;
+	text-align: center;
+	color: $dark-color-2;
+	border: none;
+	background-color: transparent;
+	text-decoration: none;
+	// font-weight: 500;
+	transition: all 0.3s;
+	cursor: pointer;
+	@include bp-xxl {
+		font-size: $font-size-xxl;
+	}
 
-    &:hover{
-        text-decoration: none;
-        color: $base-color;
-        box-shadow:none;    
-    }
-    &:focus{
-        outline: none;
-        box-shadow:none; 
-    }
-    &--block{
-        display: block;
-        width: 100%;
-        @include bpm-sm{
-            width: 60%;
-            margin: auto;
-        }
-    }
-    &--btm-br{
-        position: relative;
-        margin-right: 50px;
-        &:after{
-            content: "";
-            display: block;
-            width: 100%;
-            position: absolute;
-            bottom: 3px;
-            right: -50px;
-            height: 1px;
-            background-color: currentColor;
-            transition: all .3s;
-        }
-        &:hover{
-            &:after{
-                right: 0;   
-            }
-        }
-    }
-    &--btm-br-gold{
-        color: $brand-color-1;
-        &:hover{
-            color: $brand-color-1;
-        }
-    }
-    &--outline{
-        min-width: 150px;
-        border: 1px solid $base-color;
-        padding: 6px 25px;
-        border-radius: 0;
-        // font-weight: 600;
-        letter-spacing: 0.5px;        
-        &:hover{
-            background: $base-color;
-            color: $light-color; 
-        }
-    }
-    &--outline-gold{
-        min-width: 150px;
-        border: 1px solid $brand-color-1;
-        padding: 6px 25px;
-        color: $brand-color-1;
-        // font-weight: 600;
-        letter-spacing: 0.5px;
-        &:hover{
-            @include goldGradient;
-            color: $base-color;
-        }
-    }
-    &--gold{
-        min-width: 150px;
-        border: 1px solid $brand-color-1;
-        padding: 6px 25px;
-        @include goldGradient;
-        color: $base-color;
-        letter-spacing: 0.5px;
-        &:hover{
-            background: $base-color;
-            color: $brand-color-1;
-        }
-    }
+	&:hover {
+		text-decoration: none;
+		color: $dark-color-2;
+		box-shadow: none;
+	}
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+	&--block {
+		display: block;
+		width: 100%;
+		@include bpm-sm {
+			width: 60%;
+			margin: auto;
+		}
+	}
+	&--btm-br {
+		position: relative;
+		margin-right: 50px;
+		&:after {
+			content: "";
+			display: block;
+			width: 100%;
+			position: absolute;
+			bottom: 3px;
+			right: -50px;
+			height: 1px;
+			background-color: currentColor;
+			transition: all 0.3s;
+		}
+		&:hover {
+			&:after {
+				right: 0;
+			}
+		}
+	}
+	&--btm-br-brand {
+		color: $brand-color-1;
+		position: relative;
+		margin-right: 50px;
+		&:after {
+			content: "";
+			display: block;
+			width: 100%;
+			position: absolute;
+			bottom: 3px;
+			right: -50px;
+			height: 1px;
+			background-color: currentColor;
+			transition: all 0.3s;
+		}
+		&:hover {
+			color: $Hover-color;
+			&:after {
+				right: 0;
+			}
+		}
+	}
+	&--btm-br-gold {
+		color: $brand-color-1;
+		&:hover {
+			color: $brand-color-1;
+		}
+	}
+	&--btm-br-light {
+		color: $light-color;
+		&:hover {
+			color: $light-color-2;
+		}
+	}
+	&--outline {
+		min-width: 150px;
+		border: 1px solid $dark-color-2;
+		padding: 6px 25px;
+		border-radius: 0;
+		// font-weight: 600;
+		letter-spacing: 0.5px;
+		&:hover {
+			background: $dark-color-2;
+			color: $light-color;
+		}
+	}
+	&--outline-brand {
+		min-width: 150px;
+		border: 1px solid $brand-color-1;
+		color: $brand-color-1;
+		padding: 6px 25px;
+		border-radius: 0;
+		// font-weight: 600;
+		letter-spacing: 0.5px;
+		&:hover {
+			background: $Hover-color;
+			color: $light-color;
+		}
+	}
+	&--outline-gold {
+		min-width: 150px;
+		border: 1px solid $brand-color-1;
+		padding: 6px 25px;
+		color: $brand-color-1;
+		// font-weight: 600;
+		letter-spacing: 0.5px;
+		&:hover {
+			@include goldGradient;
+			color: $dark-color-2;
+		}
+	}
+	&--gold {
+		min-width: 150px;
+		border: 1px solid $brand-color-1;
+		padding: 6px 25px;
+		@include goldGradient;
+		color: $dark-color-2;
+		letter-spacing: 0.5px;
+		&:hover {
+			background: $dark-color-2;
+			color: $brand-color-1;
+		}
+	}
 }
